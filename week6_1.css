@@ -87,7 +87,7 @@
 	padding-bottom: 10px;
 }
 .main{
-	height: 150px;
+	//height: 150px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background-color: white;
@@ -183,4 +183,54 @@
 }
 a:hover{
 	color: #AAAAFF;
+}
+@media only screen and (max-width: 768px) {
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+.header{
+	margin-bottom: 120px;
+}
+.header ul{
+	position: relative;
+	left: -100px;
+	float: none;
+	text-align: center;
+}
+.header li a{
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+.connect_method{
+	display: none;
+}
+.b_slider{
+	display: none;
+}
+.b_content{
+	width: auto;
+}
+.main{
+	width: auto;
+}
+.activity{
+	float: none;
+	width: auto;
+}
+.act_events{
+	background-color: white;
+	width: auto;
+	float: none;
+}
+.act_events li{
+	float: none;
+}
+.act_imformation{
+	width: 100%;
+	background-color: white;
+}
+.copyright{
+	display: none;
 }
